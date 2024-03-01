@@ -6,6 +6,15 @@ namespace IBlogs.Controllers.Website.WebSiteLogin
     {
         public IActionResult Index()
         {
+            try
+            {
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
             return View();
         }
 
