@@ -8,14 +8,14 @@ namespace IBlogs.Controllers.Website.WebSiteLogin
         {
             try
             {
-
+                return View();
             }
-            catch (Exception)
+            catch (Exception Ex)
             {
 
-                throw;
+                throw Ex;
             }
-            return View();
+            
         }
 
     }
